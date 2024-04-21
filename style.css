@@ -1,0 +1,55 @@
+.container {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  align-items: center;
+  padding: 5px;
+  margin-top: 150px;
+}
+h1 {
+  margin-left: 10px;
+}
+h2 {
+  margin-left: 10px;
+  margin-top: 0;
+  font-size: 29px;
+}
+button {
+  background-color: white;
+}
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 90px;
+  text-align: center;
+}
+
+.cell:hover {
+  background-color: #8bd6f7;
+}
+#startButton {
+  margin-left: 90px;
+  padding: 10px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: none;
+}
+#resetButton {
+  margin: 10px;
+  padding: 10px;
+  background-color: #d9c47e;
+  border-radius: 10px;
+  border: none;
+}
+
+.cell.X {
+  color: #e8687a;
+}
+
+.cell.O {
+  color: black;
+}
+.winningCells {
+  background-color: #8bd6f7;
+}
